@@ -1,0 +1,337 @@
+    1  exit
+    2  docker run -d -p 8088:80 ubuntu/nginx/usr/sbin/nginx -g "daemon off;"
+    3  docker run -d -p 8088:80 ubuntu/nginx /usr/sbin/nginx -g "daemon off;"
+    4  docker ps -q
+    5  docker stop ad0655ca92a8
+    6  docker stop
+    7  docker images
+    8  docker start
+    9  docker start ad0655ca92a8
+   10  docker stop ad0655ca92a8
+   11  docker ps
+   12  docker stop 1bb2fd517a3c 
+   13  docker start 1bb2fd517a3c 
+   14  docker start ad0655ca92a8
+   15  docker start 1bb2fd517a3c
+   16  docker ps
+   17  docker ps -a
+   18  docker stop ad0655ca92a8 
+   19  docker ps
+   20  docker ps
+   21  docker start ad0655ca92a8 
+   22  exit
+   23  cd /c
+   24  cd Users
+   25  ls
+   26  cd DCIoT-07
+   27  ls
+   28  cd Desktop
+   29  ls
+   30  cd Dockerfile
+   31  docker build -t nginx .
+   32  docker build -t nginx .
+   33  docker build -t nginx .
+   34  docker build -t nginx .
+   35  docker build -t nginx .
+   36  docker images
+   37  docker run ubuntu /bin/echo Hello, Docker!
+   38  docker run -d -p 8080:80 nginx /usr/sbin/nginx - g "daemon off;"
+   39  docker ps
+   40  docker run -d -p 8080:80 nginx /usr/sbin/nginx -g "daemon off;"
+   41  docker ps
+   42  docker ps
+   43  docker stop d2e68a224e84 
+   44  clear
+   45  docker build -t nginx .
+   46  docker run -d -P nginx /usr/sbin/nginx -g "daemon off;"
+   47  docker ps
+   48  docker port 1b7e38db51a5 
+   49  docker ps
+   50  docker port 1b7e38db51a5 
+   51  curl -IL http://localhost:32768
+   52  curl -IL http://192.168.99.100:32768
+   53  docker build -t nginx .
+   54  docker ps
+   55  docker build -t nginx .
+   56  docker ps
+   57  docker build -t nginx .
+   58  docker ps
+   59  docker build -t nginx .
+   60  docker run -d nginx
+   61  docker ps
+   62  exit
+   63  docker images
+   64  docker ps -a
+   65  docker rm eloquent_nash
+   66  docker p -a
+   67  docker ps -a
+   68  clear
+   69  docker ps -a
+   70  docker rm wizardly_brattain
+   71  docker ps -a
+   72  docker rm ex_nginx
+   73  docker ps -a
+   74  docker ps -a
+   75  docker rm upbeat_chatelet
+   76  docker ps -a
+   77  docker rm unruffled_ramanujan
+   78  docker ps -a
+   79  docker rm unruffled_ramanujan
+   80  docker rm wizardly_ellis
+   81  docker ps -a
+   82  docker ps -a
+   83  docker rm lucid_ride
+   84  docker ps -a
+   85  docker stop
+   86  exit
+   87  docker build -t dciot-docker .
+   88  cd 
+   89  ls
+   90  dir
+   91  dir/r
+   92  dir c:
+   93  dir
+   94  cd Desktop
+   95  cd PROJETO UEA
+   96  cd Desktop/WORK
+   97  dir
+   98  cd WORKSHOP\ HENRIQUE
+   99  docker build -t dciot-docker .
+  100  cd /Desktop/WORKSHOP HENRIQUE/AppDciot
+  101  cd/Desktop/appDciot
+  102  dir
+  103  cd appDciot
+  104  docker build -t dciot-docker .
+  105  exit
+  106  ls
+  107  ls -a
+  108  cd ..
+  109  cd ~
+  110  cd D
+  111  ls
+  112  pwd
+  113  ls -a
+  114  cd ~
+  115  cd D/
+  116  cd
+  117  cd Documents/
+  118  pwd
+  119  cd Desktop/
+  120  cd ..
+  121  cd Desktop/
+  122  mkdir comandos
+  123  ls
+  124  cd comandos/
+  125  mkdir pasta nova
+  126  ls
+  127  mkdir "pasta nova"
+  128  ls
+  129  rm -r nova pasta
+  130  ls
+  131  mv "pasta nova" pasta_nova
+  132  ls
+  133  mkdir new
+  134  ls
+  135  mv new pasta_nova
+  136  ls
+  137  ls pasta_nova
+  138  touch arquivo.txt
+  139  ls
+  140  cp arquivo.txt pasta_nova
+  141  ls
+  142  ls pasta_nova
+  143  ls
+  144  echo 'hola mundo' > comando.txt
+  145  ls
+  146  cat comando.txt
+  147  cat > comando.txt
+  148  cat comando.txt
+  149  cat >> comandp.txt
+  150  cat comando.txt
+  151  cat >> comando.txt
+  152  cat comando.txt
+  153  help cd
+  154  history
+  155  history 10
+  156  history > historico.txt
+  157  ls
+  158  clear
+  159  exit
+  160  git config --global user.name 'Jani Exaez'
+  161  git config --global user.email 'exaezsa@gmail.com'
+  162  git config --global user.name 
+  163  cd Desktop/
+  164  mkdir Curso_Git
+  165  cd Curso_Git
+  166  git config --global user.name 
+  167  git init
+  168  git status
+  169  echo '#Aprendendo usar o Git' > readme.md
+  170  git status
+  171  git add readme.md
+  172  git status
+  173  git commit -m 'commit inicial'
+  174  git status
+  175  echo '##Aula 1' >> readme.md
+  176  git status
+  177  echo 'Jani Exaez' > participante.txt
+  178  git status
+  179  git add .
+  180  git status
+  181  git restore --staged participantes.txt
+  182  git restore --staged participante.txt
+  183  git status
+  184  git add participante.txt
+  185  git restore --staged .
+  186  git status
+  187  git commit -am 'Alteração no readme'
+  188  git status
+  189  git add participante.txt
+  190  git status
+  191  git commit -m 'Adicionado participante.txt'
+  192  git status
+  193  history > Aula_3.txt
+  194  git status
+  195  git add .
+  196  git commit -m 'Comando da Aula 3'
+  197  git log
+  198  exit
+  199  ls
+  200  cd Desktop/
+  201  ls
+  202  cd Curso_Git/
+  203  ls
+  204  ls Aula_3.txt 
+  205  cat Aula_3.txt 
+  206  cat participante.txt 
+  207  cat readme.md 
+  208  ls
+  209  cd ..
+  210  ls
+  211  ls comandos/
+  212  ls arquivo.txt
+  213  cat arquivo.txt
+  214  cd comandos/
+  215  ls arquivo.txt 
+  216  cat arquivo.txt 
+  217  ls
+  218  cd comando.txt
+  219  cat comando.txt
+  220  cat pasta_nova/
+  221  cd ..
+  222  ls
+  223  cd Curso_Git/
+  224  git log
+  225  git log --pretty=oneline
+  226  git status
+  227  git log
+  228  touch teste
+  229  git add teste 
+  230  git status
+  231  git commit 'Commit de teste'
+  232  git commit -m 'Commit de teste'
+  233  git log
+  234  git status
+  235  git reset --soft HEAD~
+  236  git log
+  237  git status
+  238  git commit -m 'Commit de teste'
+  239  git log
+  240  git reset --hard HEAD~
+  241  git status
+  242  git log
+  243  git log --pretty=oneline
+  244  git checkout HEAD~2
+  245  git status
+  246  git log
+  247  git checkout master
+  248  git log
+  249  git checkout ~2
+  250  git checkout HEAD ~2
+  251  git checkout HEAD~2
+  252  git log
+  253  git checkout HEAD~
+  254  git log
+  255  git checkout master
+  256  git log
+  257  clear
+  258  mkdir .vscode
+  259  touch conf.txt
+  260  mv conf.txt .vscode/
+  261  ls .vscode/
+  262  git status
+  263  echo '.vscode/' > .gitignore
+  264  git status
+  265  touch pessoal.conf
+  266  git status
+  267  echo 'pessoal.conf' >> .gitignore 
+  268  git status
+  269  git add .gitignore 
+  270  git commit -m 'Adicionando arquivo .gitignore'
+  271  history > Aula_4.txt
+  272  git status
+  273  git add Aula_4.txt 
+  274  git commit -m 'Comando da aula 4'
+  275  clear
+  276  git log -2
+  277  git log -p -2
+  278  git log --pretty=oneline -2
+  279  git reset HEAD~
+  280  git log
+  281  git branch
+  282  git checkout -b feature
+  283  git branch
+  284  touch Nova_featura
+  285  git status
+  286  git add Nova_featura 
+  287  git commit -m 'Adicionando Nova feature'
+  288  git log
+  289  git checkout master
+  290  git status
+  291  git add .
+  292  git commit 'Comandos da Aula 4'
+  293  git log
+  294  git log
+  295  git status
+  296  git commit 'Comandos da Aula 4'
+  297  git commit -m 'Comandos da Aula 4'
+  298  git log
+  299  touch Continuando_master
+  300  git add Continuando_master 
+  301  git commit -m 'Adicionando continuacao na master'
+  302  git log
+  303  git branch -b feature2
+  304  git checkout -b feature2
+  305  git log
+  306  git checkout feature
+  307  git log
+  308  git checkout master
+  309  git log
+  310  git branch -d feature2
+  311  git log
+  312  git checkout feature
+  313  git log --pretty=oneline --graph
+  314  git checkout master
+  315  git log
+  316  git log --pretty=oneline --graph
+  317  git checkout feature
+  318  git merge master
+  319  git log
+  320  git log --pretty=oneline --graph
+  321  git reset --hard HEAD~
+  322  git log
+  323  git log --pretty=oneline --graph
+  324  git rebase master
+  325  git log --pretty=oneline --graph
+  326  history > Aula_5.txt
+  327  git add Aula_5.txt 
+  328  git commit -m 'Comando da Aula 5'
+  329  git tag
+  330  git config --global alias.logpg 'log --pretty=oneline --graph'
+  331  git logpg
+  332  git tag -a v01 -m 'Até a aula 5'
+  333  git logpg
+  334  git checkout master
+  335  git rebase feature
+  336  git logpg
+  337  history > Aula_6.txt
